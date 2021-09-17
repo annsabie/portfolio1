@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-
-
 header {
-
     background-image: url("https://images.unsplash.com/photo-1631777437196-d240f86f5e97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
     background-size: cover;
     display: flex;
@@ -15,18 +12,16 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-bottom: 50px;
-    
-
+    padding-bottom: 50px; 
 }
 
-header h1 {
-    font-size: 40px;
+header h1  {
+    font-size: 50px;
     background-color: initial;
 }
 
-p { background-color: initial;
-
+p {  
+    background-color: initial;
 }
 
 nav  {
@@ -34,8 +29,7 @@ nav  {
     width: 100%;
     list-style-type: none;
     align-content: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 nav a {
@@ -43,10 +37,6 @@ nav a {
     padding: 50px;
     text-decoration: none;
     text-align: center;
-    
-
-
-
 }
 
 main {
@@ -54,17 +44,13 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-
-    
-    
-
-
+    list-style-type: none;
+    text-decoration: none;
 }
 
-
-
-h3 {
+h3  {
     text-align: center;
+    text-decoration: none;
 }
 
 .start {
@@ -75,19 +61,14 @@ h3 {
     flex: 1;
     padding: 20px;
     width: 100%;
-    background-color: lightslategrey;
-   
-
-
+    background-color: lightslategrey;  
     
 }
 
-img {
-    
-    max-width: 200px;
-    max-height: 300px;
-    
-    
+img { 
+    flex: 1 1 1;
+    max-width: 300px;
+    max-height: 300px;   
 }
 
 h2 {
@@ -99,12 +80,18 @@ h2 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .project1 {
     flex-grow: 2;
+    text-decoration: none;
 }
 
 .project2 {
     flex-grow: 1;
+    text-decoration: none;
 }
 
 .project3 {
@@ -114,6 +101,7 @@ h2 {
 .project4 {
     flex-grow: 1;
 }
+
 .project1 img {
     flex: 2 1 1;
     display: block;
@@ -166,13 +154,20 @@ h4 {
     header {
         background: lightcoral;
     }
+    .start {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
-        .main {
-          width: 100%;
-        }
+    .main {
+        width: 100%;
+    }
     header {
         background: rosybrown;
+    }
+    .start {
+        width: 100%;
+        font-size: 40px;
     }
 }
