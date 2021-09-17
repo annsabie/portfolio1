@@ -61,7 +61,7 @@ h3  {
     flex: 1;
     padding: 20px;
     width: 100%;
-    background-color: lightslategrey;  
+    background-color:darkslategray
     
 }
 
@@ -168,6 +168,6 @@ h4 {
     }
     .start {
         width: 100%;
-        font-size: 40px;
+        font-size: 15px;
     }
 }
