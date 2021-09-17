@@ -1,0 +1,143 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: mistyrose;
+    box-sizing: border-box;
+}
+
+
+
+header {
+
+    background-image: url("https://images.unsplash.com/photo-1631777437196-d240f86f5e97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+    
+
+}
+
+header h1 {
+    font-size: 40px;
+    background-color: initial;
+}
+
+p { background-color: initial;
+
+}
+
+nav  {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+nav a {
+    flex: 1;
+    padding: 50px;
+    text-decoration: none;
+    text-align: center;
+    
+
+
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+    
+
+
+}
+
+section {
+    flex: 2;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.start {
+    display: flex;
+}
+
+.about {
+    flex: 1;
+    padding: 20px;
+    width: 100%;
+    background-color: lightslategrey;
+   
+
+
+    
+}
+
+img {
+    
+    max-width: 200px;
+    max-height: 300px;
+    
+    
+}
+
+h2 {
+    background-color: initial;
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+}
+
+.project1 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    max-height: 600px;
+    border-radius: 8px;
+}
+
+.project2 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    max-height: 600px;
+    border-radius: 8px;
+}
+
+.project3 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    max-height: 600px;
+    border-radius: 8px;
+}
+
+.project4 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    max-height: 600px;
+    border-radius: 8px;
+}
+
+.footer {
+    position: fixed;
+    padding: 100px;
+}
+
+h4 {
+    text-align: center;
+}
