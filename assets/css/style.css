@@ -1,42 +1,7 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: mistyrose;
+    
     box-sizing: border-box;
-}
-
-header {
-    background-image: url("https://images.unsplash.com/photo-1631777437196-d240f86f5e97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding-bottom: 50px; 
-}
-
-header h1  {
-    font-size: 50px;
-    background-color: initial;
-}
-
-p {  
-    background-color: initial;
-}
-
-nav  {
-    display: flex;
-    width: 100%;
-    list-style-type: none;
-    align-content: center;
-    justify-content: center;  
-}
-
-nav a {
-    flex: 1;
-    padding: 50px;
-    text-decoration: none;
-    text-align: center;
 }
 
 main {
@@ -48,40 +13,23 @@ main {
     text-decoration: none;
 }
 
-h3  {
-    text-align: center;
-    text-decoration: none;
+#nav {
+    background-color:lightpink;
+    padding-bottom: 10px;
 }
 
-.start {
-    display: flex;
-}
-
-.about {
-    flex: 1;
-    padding: 20px;
-    width: 100%;
-    background-color:darkslategray
-    
-}
-
-img { 
-    flex: 1 1 1;
+#ann {
     max-width: 300px;
-    max-height: 300px;   
+    max-height: 300px;
+    border-radius: 8px;
 }
 
-h2 {
-    background-color: initial;
+#about {
+    padding-top: 20px;
+}
+
+h3 {
     text-align: center;
-}
-
-.about p {
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
 }
 
 .project1 {
@@ -106,8 +54,8 @@ a {
     flex: 2 1 1;
     display: block;
     margin: 10px auto;
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 700px;
+    max-height: 700px;
     border-radius: 8px;
 }
 
@@ -171,3 +119,4 @@ h4 {
         font-size: 15px;
     }
 }
+
